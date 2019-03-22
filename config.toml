@@ -1,10 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "http://adamcarrier.com/"
 languageCode = "en-us"
 theme = "hyde"
 title = "My New Hugo Site"
 [params]
 disqusShortname = ""
 googleAnalytics = ""
-layoutReverse = false
+layoutReverse = true
 theme = "hyde"
-themeColor = ""
+themeColor = "theme-base-0d"
