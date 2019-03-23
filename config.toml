@@ -3,9 +3,10 @@ languageCode = "en-us"
 theme = "hyde"
 title = "Adam Carrier"
 
+disqusShortname = "adamcarrier"
+googleAnalytics = "UA-136788226-1"
+
 [params]
-	disqusShortname = "adamcarrier"
-	googleAnalytics = "UA-136788226-1"
 	layoutReverse = true
 	theme = "hyde"
 	themeColor = ""
