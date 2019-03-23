@@ -41,8 +41,17 @@ html {
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
+}
+
+/*
+ * Personal touches
+ *
+ * Adam's tweaks
+ */
+.fine-print {
+  font-size: .8em;
 }
 
 
@@ -58,6 +67,8 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  background: url(newport-news-wide.png) top center no-repeat;
+  background-size: cover;
 }
 @media (min-width: 48em) {
   .sidebar {
