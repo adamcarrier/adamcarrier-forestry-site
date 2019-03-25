@@ -1,12 +1,9 @@
----
-layout: page
-title: About
-date: 2010-12-31 23:00:00 +0000
-menu:
-  main:
-    weight: 1
++++
+date = "2019-03-25T18:55:55-04:00"
+layout = "page"
+title = "About"
 
----
++++
 <p class="message">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p>

@@ -1,9 +1,10 @@
----
-layout: post
-title: Introducing Hyde
-date: 2016-12-27 19:00:00 -0500
++++
+date = "2019-03-25T18:55:55-04:00"
+layout = "post"
+title = "Introducing Hyde"
+tags = ""
 
----
++++
 Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name.
 It pairs a prominent sidebar with uncomplicated content.
 
