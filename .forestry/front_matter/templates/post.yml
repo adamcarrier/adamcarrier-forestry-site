@@ -12,7 +12,7 @@ fields:
   label: date
   config:
     required: true
-    date_format: Mon, Jan 2, 2006
+    date_format: MM/DD/YYYY
 - type: tag_list
   name: tags
   label: tags
