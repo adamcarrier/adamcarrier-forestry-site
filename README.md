@@ -1,6 +1,6 @@
 # Personal site Forestry.io theme
 
-Hi there! This repo contains the template files for my personal [Forestry.io](https://forestry.io/) site at [AdamCarrier.com](https://adamcarrier.com/). It uses a [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name. Just seemed like a good starting theme.
+Hi there! This repo contains the template files for my personal [Forestry.io](https://forestry.io/) site at [AdamCarrier.com](https://adamcarrier.com/). It uses [Hugo](https://gohugo.io) and a heavily modified copy of the [Hyde starter theme](https://github.com/forestryio/hyde-hugo-starter), based on the [Jekyll](http://jekyllrb.com) theme of the same name. Hyde just seemed like a good place to start.
 
 FWIW, my personal site is deployed and hosted by [Netlify](https://www.netlify.com/).
 
