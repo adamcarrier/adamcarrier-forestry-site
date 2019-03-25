@@ -8,4 +8,5 @@ fields:
   config:
     required: true
 pages:
+- content/about.md
 - content/html-sample-test.md
