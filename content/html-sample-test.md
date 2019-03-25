@@ -1,6 +1,5 @@
 +++
 date = "2019-03-25T18:55:55-04:00"
-draft = true
 layout = "page"
 title = "HTML Sample Test"
 
