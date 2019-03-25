@@ -1,8 +1,8 @@
 +++
-date = "2019-03-25T18:55:55-04:00"
+date = "2019-03-01T00:00:00-05:00"
 layout = "post"
+tags = []
 title = "Introducing Hyde"
-tags = ""
 
 +++
 Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name.
