@@ -5,6 +5,13 @@
   {{ .Content }}
 </div>
 
+<h2>Tags</h2>
+<ul>
+{{ range .Params.tags }}
+  <li>{{ . }}</li>
+{{ end }}
+</ul>
+
 {{ if .Site.DisqusShortname -}}
 <h2>Comments</h2>
 {{ template "_internal/disqus.html" . }}
