@@ -5,5 +5,7 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 pages:
 - content/html-sample-test.md
