@@ -1,7 +1,7 @@
 +++
 date = "2019-03-25T19:42:56-04:00"
 layout = "post"
-tags = []
+tags = ["#test", "#demo", "#hyde"]
 title = "Introducing Hyde"
 
 +++
