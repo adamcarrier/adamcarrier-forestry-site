@@ -5,12 +5,7 @@
   {{ .Content }}
 </div>
 
-<h2>Tags</h2>
-<ul>
-{{ range .Params.tags }}
-  <li>{{ . }}</li>
-{{ end }}
-</ul>
+<p>{{ delimit .Params.tags ", " }}</p>
 
 {{ if .Site.DisqusShortname -}}
 <h2>Comments</h2>
