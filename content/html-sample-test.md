@@ -2,6 +2,9 @@
 date = "2019-03-25T18:55:55-04:00"
 layout = "page"
 title = "HTML Sample Test"
+[menu.main]
+name = "Sample"
+weight = 2
 
 +++
 <h1>Heading One</h1>
