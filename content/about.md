@@ -2,9 +2,7 @@
 date = "2019-03-25T18:55:55-04:00"
 layout = "page"
 title = "About"
-menu:
-  main:
-    weight: 1
+menu = "main"
 
 +++
 <p class="message">
