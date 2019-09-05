@@ -162,7 +162,7 @@ This is a normal footnote, which directs to the bottom of the document. [^1]
 
 This is a dual footnote, which also reuses the url from the footnote for a hyperlink [more on markdown] [A] [^2]
 
-At the bottom om the document:
+At the bottom of the document:
 
 [^1]: Here goes the normal footnote, which is used inside the text above.
 [^2]: And here the dual footnote, which beside the footnote (link to the bottom) also contains a link out of document including text mouseover (optional).
