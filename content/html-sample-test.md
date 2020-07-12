@@ -4,7 +4,7 @@ layout = "page"
 title = "HTML Sample Test"
 [menu.main]
 name = "Sample"
-weight = 2
+weight = 400
 
 +++
 <h1>Heading One</h1>

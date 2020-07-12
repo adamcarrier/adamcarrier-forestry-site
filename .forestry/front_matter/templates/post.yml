@@ -17,4 +17,8 @@ fields:
   name: tags
   label: tags
 pages:
-- content/posts/introducing-hyde.md
+- content/posts/emoji-support.md
+- content/posts/markdown-syntax.md
+- content/posts/math-typesetting.md
+- content/posts/placeholder-text.md
+- content/posts/rich-content.md

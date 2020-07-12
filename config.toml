@@ -1,12 +1,61 @@
 baseURL = "https://adamcarrier.com/"
 languageCode = "en-us"
-theme = "hyde"
+theme = "anatole"
 title = "Adam Carrier"
 
 disqusShortname = "adamcarrier"
 googleAnalytics = "UA-136788226-1"
 
 [params]
-	layoutReverse = true
-	theme = "hyde"
-	themeColor = ""
+title = "Adam Carrier"
+author = "Adam Carrier"
+description = "A bunch of my thoughts. Made in Newport News."
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+mainSections = ["posts"]
+images = ["images/site-feature-image.png"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "http://www.linkedin.com/in/adamcarrier/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/adamcarrier/"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:adambcarrier@gmail.com"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
