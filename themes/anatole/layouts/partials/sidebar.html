@@ -1,0 +1,25 @@
+<div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="{{ .Site.Params.profilePicture | absURL }}" alt="profile picture">
+        <h3 title=""><a href="/">{{ .Site.Params.Title }}</a></h3>
+        <div class="description">
+          <p>{{ .Site.Params.description }}</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        {{ range $item := .Site.Params.socialIcons }}
+        <li>
+        <a href="{{ $item.url }}" rel="me" aria-label="{{ $item.title }}">
+          <i class="fa fa-2x {{ $item.icon }}" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        {{ end }}
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; {{ now.Format "2006"}} {{ .Site.Params.author }}. All rights reserved.<br>Built using <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a href="https://forestry.io/" target="_blank" rel="noopener noreferrer">Forestry.io</a>.<br>Served by <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a>.</div>
+      </div>
+    </div>
+</div>
